@@ -14,8 +14,11 @@
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:background="#226dbe"
+            android:onClick="Next"
+            android:textColor="#fff"
             android:layout_weight="1"
-            android:text="BOTON 1"
+            android:text="Siguiente"
             android:id="@+id/button1" />
         <Button
             android:layout_width="0dp"
