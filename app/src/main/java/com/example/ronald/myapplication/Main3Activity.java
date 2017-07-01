@@ -37,6 +37,8 @@ public class Main3Activity extends AppCompatActivity {
             case R.id.item3:
                 intent3 = new Intent(this, Main3Activity.class);
                 break;
+            case R.id.item4:
+                finish();
         }
         startActivity(intent3);
         return true;
